@@ -3,6 +3,7 @@
 <div align="center">    
  
 # Sentiment Analysis for Market Movement Prediction
+ ![alt text](https://github.com/quan-possible/stock-nlp/blob/master/documents/stonks.jpg)
  
 ## Description   
 In this project, we created a model that predict the intraday movement of the S&P 500 Index. It uses both the historical index value and the public sentiment derived from Tweets. The result is satisfactory considering those of more powerful models.
