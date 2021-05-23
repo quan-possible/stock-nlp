@@ -22,7 +22,7 @@ In this project, we created a model that predict the intraday movement of the S&
 
 ## Methods
 
-- Sentiment Analysis: Word Count (baseline), Decision tree (baseline) and RoBERTa.
+- Sentiment Analysis: Word Count (baseline), Decision Tree (baseline) and RoBERTa.
 
 - Market movement prediction: SVM (baseline) and GRUs.
 
