@@ -9,7 +9,6 @@ setup(
         sentiment analysis and historical prices',
     author='Bruce Nguyen',
     author_email='bruce.nguyen@aalto.fi',
-    # REPLACE WITH YOUR OWN GITHUB PROJECT LINK
     url='https://github.com/quan-possible/stock-nlp',
     install_requires=['pytorch-lightning'],
     packages=find_packages(),
