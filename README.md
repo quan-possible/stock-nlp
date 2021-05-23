@@ -3,7 +3,7 @@
 <div align="center">    
  
 # Intraday Market Movement Prediction Using Sentiment Analysis and Historical Data
- ![alt text](https://github.com/quan-possible/stock-nlp/blob/master/documents/stonks.jpg)
+ <img src="https://github.com/quan-possible/stock-nlp/blob/master/documents/stonks.jpg" alt="drawing" width="200"/>
  
  Read our literature review: https://github.com/quan-possible/stock-nlp/blob/master/documents/literature_review.pdf
  Read our paper: https://github.com/quan-possible/stock-nlp/blob/master/documents/paper.pdf
