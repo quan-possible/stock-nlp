@@ -6,6 +6,7 @@
  <img src="https://github.com/quan-possible/stock-nlp/blob/master/documents/stonks.jpg" alt="drawing" width="400"/>
  
  Read our literature review: https://github.com/quan-possible/stock-nlp/blob/master/documents/literature_review.pdf
+ 
  Read our paper: https://github.com/quan-possible/stock-nlp/blob/master/documents/paper.pdf
  
 ## Description   
