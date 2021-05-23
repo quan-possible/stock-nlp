@@ -2,23 +2,16 @@
 
 <div align="center">    
  
-# Sentiment Analysis for Market Movement Prediction     
-
-![CI testing](https://github.com/PyTorchLightning/deep-learning-project-template/workflows/CI%20testing/badge.svg?branch=master&event=push)
-
-
-<!--  
-Conference   
--->   
-</div>
+# Sentiment Analysis for Market Movement Prediction
  
 ## Description   
 In this project, we created a model that predict the intraday movement of the market. It uses both the historical index value and the public sentiment derived from Tweets. The result is satisfactory considering those of more powerful models.
 
 ## Datasets
 
-Markup : - Data used for the International Workshop on Semantic Evaluation (SemEval): SemEval is an periodical series of NLP workshops with a mission to advance the current state of the art in semantic analysis and to help create high-quality annotated datasets for tasks in natural language semantics. We use the data from SemEval-2017 in particular to train the sentiment analysis model.
-         - Cheng-Caverlee-Lee dataset: A collection of over 9 million public tweets geo-located in the United States. It is used for sentiment analysis.
+- Data used for the International Workshop on Semantic Evaluation (SemEval): SemEval is an periodical series of NLP workshops with a mission to advance the current state of the art in semantic analysis and to help create high-quality annotated datasets for tasks in natural language semantics. We use the data from SemEval-2017 in particular to train the sentiment analysis model.
+
+- Cheng-Caverlee-Lee dataset: A collection of over 9 million public tweets geo-located in the United States. It is used for sentiment analysis.
 
 ## Methods
 
