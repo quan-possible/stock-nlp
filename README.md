@@ -2,16 +2,8 @@
 
 <div align="center">    
  
-# Your Project Name     
+# Sentiment Analysis for Market Movement Prediction     
 
-[![Paper](http://img.shields.io/badge/paper-arxiv.1001.2234-B31B1B.svg)](https://www.nature.com/articles/nature14539)
-[![Conference](http://img.shields.io/badge/NeurIPS-2019-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
-[![Conference](http://img.shields.io/badge/ICLR-2019-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
-[![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)  
-<!--
-ARXIV   
-[![Paper](http://img.shields.io/badge/arxiv-math.co:1480.1111-B31B1B.svg)](https://www.nature.com/articles/nature14539)
--->
 ![CI testing](https://github.com/PyTorchLightning/deep-learning-project-template/workflows/CI%20testing/badge.svg?branch=master&event=push)
 
 
@@ -21,55 +13,20 @@ Conference
 </div>
  
 ## Description   
-What it does   
+In this project, we created a model that predict the intraday movement of the market. It uses both the historical index value and the public sentiment derived from Tweets. The result is satisfactory considering those of more powerful models.
 
-## How to run   
-First, install dependencies   
-```bash
-# clone project   
-git clone https://github.com/YourGithubName/deep-learning-project-template
+## Datasets
 
-# install project   
-cd deep-learning-project-template 
-pip install -e .   
-pip install -r requirements.txt
- ```   
- Next, navigate to any file and run it.   
- ```bash
-# module folder
-cd project
+Markup : - Data used for the International Workshop on Semantic Evaluation (SemEval): SemEval is an periodical series of NLP workshops with a mission to advance the current state of the art in semantic analysis and to help create high-quality annotated datasets for tasks in natural language semantics. We use the data from SemEval-2017 in particular to train the sentiment analysis model.
+         - Cheng-Caverlee-Lee dataset: A collection of over 9 million public tweets geo-located in the United States. It is used for sentiment analysis.
 
-# run module (example: mnist as your main contribution)   
-python lit_classifier_main.py    
-```
+## Methods
 
-## Imports
-This project is setup as a package which means you can now easily import any file into any other file like so:
-```python
-from project.datasets.mnist import mnist
-from project.lit_classifier_main import LitClassifier
-from pytorch_lightning import Trainer
+- Sentiment Analysis: Word Count (baseline), Decision tree (baseline) and RoBERTa.
 
-# model
-model = LitClassifier()
+- Market movement prediction: SVM (baseline) and GRUs.
 
-# data
-train, val, test = mnist()
 
-# train
-trainer = Trainer()
-trainer.fit(model, train, val)
 
-# test using the best model!
-trainer.test(test_dataloaders=test)
-```
 
-### Citation   
-```
-@article{YourName,
-  title={Your Title},
-  author={Your team},
-  journal={Location},
-  year={Year}
-}
-```   
+
