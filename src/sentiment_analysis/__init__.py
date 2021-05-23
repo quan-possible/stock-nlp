@@ -1,6 +1,5 @@
 import random
 import time
-import os
 from argparse import ArgumentParser
 
 import numpy as np
@@ -72,7 +71,7 @@ def test_pred(classifier, text, length, batch_size):
 
 if __name__ == "__main__":
 
-    parser = ArgumentParser()
+    parser = ArgumentParser(description="Sentiment analysis given tweets.")
     parser.add_argument("--pretrained_model", type=str, 
         default="cardiffnlp/twitter-roberta-base-sentiment",
         help="Pretrained model for sentiment analysis.")
